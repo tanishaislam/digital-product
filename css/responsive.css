@@ -1,0 +1,136 @@
+/*Medium Layout: 1280px.*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    div.single-portflio a {
+        font-size: 12px;
+        font-weight: 700;
+        padding: 10px 0;
+        position: absolute;
+        bottom: -57px;
+        padding-left: 10px;
+        padding-right: 122px;
+        display: inline-block;
+    }
+}
+
+/*Tablet Layout: 1280px.*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    div.single-service-item-1 {
+        width: 100%;
+    }
+
+    div.single-service-item-2 {
+        width: 100%;
+    }
+
+    div.single-service-item-3 {
+        width: 100%;
+    }
+
+    div.service-bg {
+        height: 500px;
+    }
+
+    div.service-content h2 {
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    div.service-content {
+        padding-bottom: 30px;
+    }
+
+    div.single-portflio a {
+        font-size: 12px;
+        font-weight: 700;
+        padding: 10px 0;
+        position: absolute;
+        bottom: -57px;
+        padding-left: 10px;
+        padding-right: 221px;
+        display: inline-block;
+    }
+
+
+
+
+}
+
+/*Mobile Layout: 1280px.*/
+@media only screen and (max-width: 767px) {
+    .slides-text {
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    div.single-portflio a {
+        font-size: 12px;
+        font-weight: 700;
+        padding: 18px 0;
+        position: absolute;
+        bottom: -73px;
+        padding-left: 10px;
+        padding-right: 300px;
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    div.single-portflio-img {
+        height: 280px;
+        margin-bottom: 80px;
+    }
+
+
+    div.right-content-box {
+        font-size: 12px;
+        position: relative;
+        display: block;
+        padding-left: 32px;
+        margin-left: 200px;
+        margin-bottom: 10px;
+        margin-right: 0px;
+
+    }
+
+    div.right-content-box i.fa {
+        font-size: 20px;
+        text-align: right;
+    }
+
+    div.logo {
+        bottom: -80px;
+    }
+
+    div.bigger-text {
+        width: 89%;
+    }
+
+    div.portflio-section {
+        width: 89%;
+    }
+    
+    div.imges-1 img{
+        height: 260px;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    div.single-portflio a {
+        font-size: 12px;
+        font-weight: 700;
+        padding: 18px 0;
+        position: absolute;
+        bottom: -73px;
+        padding-left: 10px;
+        padding-right: 191px;
+        display: inline-block;
+    }
+
+}
