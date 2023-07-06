@@ -124,12 +124,43 @@ h6 {
 background-color: yellowgreen;
 }
 
+/* services-area */
+.box{
+    width: 280px;
+    height: 350px;
+    box-shadow: 5px 5px 50px rgb(63, 66, 255);
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+    color: blue;
+}
 
+.service-icons{
+    color: black;
+    width: 100px;
+}
+.box h2{
+    color: blue;
+    padding: 2px;
+    font-family: 'Bacasime Antique', serif;
+    font-size: 40px;
+    font-weight: 500;
+}
 
+.box p{
+    padding: 10px;
+}
+.secrvice-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-bottom: 60px;
+    
+}
 
-
-
-
-
-
-
+.service-background{
+    background-image: url(../img/119621.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
