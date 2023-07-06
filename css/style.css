@@ -17,7 +17,7 @@ h6 {
 }
 
 .menu-container{
-    background-color: #373737;
+    background-color: #0d094d;
     color: white;
     padding: 20px;
     display: flex;
@@ -46,6 +46,63 @@ h6 {
     color: rgb(255, 196, 0);
     text-decoration: none;
 }
+
+
+
+
+
+/* main area */
+
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url(../img/a479c310a5548d5f033a06d16775ae98.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.banner-text p{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.title span{
+    color: rgb(80, 140, 252);
+}
+.btn{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+.btn:hover{
+    color: blue;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
