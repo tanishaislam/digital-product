@@ -4,22 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!--this is a navber section-->
+	<header>
+		<nav>
+			<div class="menu-container">
+				<div class="logo">
+					<img class="logo-photo" src="./img/Docker-Logo-White-RGB_Horizontal-730x189-1.png" alt="">
+				</div>
+				<div class="menus">
+					<li class="item"><a href="Index.html">Home</a></li>
+					<li class="item"><a href="#Food menu">Food menu</a></li>
+					<li class="item"><a href="#delivery charge">delivery charge</a></li>
+					<li class="item"><a href="#contact">contact</a></li>
+					<li class="item"><a href="login.html">Login</a></li>
+				</div>
+			</div>
+		</nav>
+	</header>
     <header>
+        <div class="background-area">
         <section>
             <div class="login-page">
-                <h1>Login</h1>
+                <h1>L<span class="o-part"><sup>o</sup></span>g<span class="i-part"><sup>i</sup></span>n</h1>
                 <form action="">
-                    <label for="name">Your Name: 
+                    <label class="name-area" for="name">Your Name: 
                         <input id="name" type="text" placeholder="Your Name">
-                    </label>
+                    </label><br>
                     <label for="email">Your Email:
                         <input id="email" type="text" placeholder="Your Email">
-                    </label>
+                    </label><br>
+
+                    <fieldset class="pitha">
+                        <legend>Pick One Food</legend>
+                        <label for="chitoy">
+                            <input type="radio" id="chitoy" name="food">chitoy pitha
+                        </label><br>
+                        <label for="pizza">
+                            <input type="radio" id="pizza" name="food">Pizza
+                        </label><br>
+                        <label for="puri">
+                            <input type="radio" id="puri" name="food">Puri
+                        </label><br>
+                        <label for="chiken">
+                            <input type="radio" id="chiken" name="food">chiken
+                        </label><br>
+                    </fieldset>
+                        <textarea name="" id="" cols="30" rows="2"></textarea><br>
+                        <input type="reset" value="reset">
+                        <input type="submit" value="submit">
                 </form>
             </div>
         </section>
+    </div>
     </header>
 </body>
 </html>
